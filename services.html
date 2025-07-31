@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSSS Tours & Travels - Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="index.html" class="text-2xl font-bold text-blue-600">LSSS Tours & Travels</a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a>
+                    <a href="services.html" class="text-blue-600 font-medium">Services</a>
+                    <a href="portfolio.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Portfolio</a>
+                    <a href="about.html" class="text-gray-600 hover:text-blue-600 transition duration-300">About Us</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Contact Us</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4">
+                <a href="index.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">Home</a>
+                <a href="services.html" class="block py-2 text-blue-600 font-medium">Services</a>
+                <a href="portfolio.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">Portfolio</a>
+                <a href="about.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">About Us</a>
+                <a href="contact.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Header -->
+    <header class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
+            <p class="text-xl max-w-3xl mx-auto">We offer a comprehensive range of travel and digital marketing services to enhance your travel experience and boost your travel business.</p>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Service 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg service-card">
+                    <div class="p-6">
+                        <div class="text-blue-600 mb-4">
+                            <i class="fas fa-plane-departure text-5xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Tour Planning & Packages</h3>
+                        <p class="text-gray-600 mb-6">We create customized tour packages tailored to your preferences, budget, and travel style. From honeymoon getaways to family vacations and adventure trips, we handle all aspects of your journey.</p>
+                        <ul class="text-gray-600 mb-6 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Personalized itineraries based on your interests</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Accommodation booking at preferred hotels</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Transportation arrangements</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Guided tours and activities</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>24/7 travel support during your trip</span>
+                            </li>
+                        </ul>
+                        <a href="contact.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition duration-300">Contact Us</a>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg service-card">
+                    <div class="p-6">
+                        <div class="text-blue-600 mb-4">
+                            <i class="fas fa-search text-5xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">SEO for Travel Sites</h3>
+                        <p class="text-gray-600 mb-6">Boost your travel business's online visibility with our specialized SEO services designed specifically for the travel industry. We help you rank higher in search results and attract more potential customers.</p>
+                        <ul class="text-gray-600 mb-6 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Travel industry keyword research and analysis</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>On-page optimization for travel websites</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Local SEO for tourism businesses</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Travel content creation and optimization</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Backlink building with travel industry sites</span>
+                            </li>
+                        </ul>
+                        <a href="contact.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition duration-300">Contact Us</a>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg service-card">
+                    <div class="p-6">
+                        <div class="text-blue-600 mb-4">
+                            <i class="fas fa-robot text-5xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Marketing Automation</h3>
+                        <p class="text-gray-600 mb-6">Streamline your marketing efforts with our automated solutions tailored for the travel industry. Save time and resources while delivering personalized experiences to your customers.</p>
+                        <ul class="text-gray-600 mb-6 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Email marketing automation for travel deals</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Chatbot integration for instant customer support</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>CRM implementation and management</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Automated booking confirmation and reminders</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Personalized travel recommendation systems</span>
+                            </li>
+                        </ul>
+                        <a href="contact.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition duration-300">Contact Us</a>
+                    </div>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg service-card">
+                    <div class="p-6">
+                        <div class="text-blue-600 mb-4">
+                            <i class="fas fa-brain text-5xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">AI Travel Assistant Agent</h3>
+                        <p class="text-gray-600 mb-6">Leverage the power of artificial intelligence to enhance your travel business or personal travel planning. Our AI travel assistants provide intelligent recommendations and support.</p>
+                        <ul class="text-gray-600 mb-6 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>AI-powered travel recommendation engine</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Virtual travel assistants for your website</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Personalized itinerary generation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Predictive analytics for travel trends</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Natural language processing for customer queries</span>
+                            </li>
+                        </ul>
+                        <a href="contact.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition duration-300">Contact Us</a>
+                    </div>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg service-card">
+                    <div class="p-6">
+                        <div class="text-blue-600 mb-4">
+                            <i class="fas fa-laptop-code text-5xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Website Development</h3>
+                        <p class="text-gray-600 mb-6">Create a stunning online presence for your travel business with our custom website development services. We build responsive, user-friendly websites optimized for conversions.</p>
+                        <ul class="text-gray-600 mb-6 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Custom travel website design and development</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Booking system integration</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Mobile-responsive travel websites</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Payment gateway integration</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Travel blog and content management systems</span>
+                            </li>
+                        </ul>
+                        <a href="contact.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition duration-300">Contact Us</a>
+                    </div>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg service-card">
+                    <div class="p-6">
+                        <div class="text-blue-600 mb-4">
+                            <i class="fas fa-share-alt text-5xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Social Media Marketing</h3>
+                        <p class="text-gray-600 mb-6">Boost your travel business's online presence with our comprehensive social media marketing strategies. We help you engage with your audience and showcase your travel offerings effectively.</p>
+                        <ul class="text-gray-600 mb-6 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Social media strategy for travel businesses</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Content creation for travel social media</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Social media advertising campaigns</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Influencer marketing for destinations</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span>Social media analytics and reporting</span>
+                            </li>
+                        </ul>
+                        <a href="contact.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition duration-300">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Elevate Your Travel Experience?</h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">Whether you're planning your next adventure or looking to grow your travel business, we're here to help you succeed.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="contact.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">Contact Us Today</a>
+                <a href="portfolio.html" class="bg-white hover:bg-gray-100 text-blue-600 font-bold py-3 px-8 rounded-full border border-blue-600 transition duration-300">View Our Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">LSSS Tours & Travels</h3>
+                    <p class="mb-4">Your trusted partner for travel experiences and digital marketing solutions for the travel industry.</p>
+                    <div class="flex space-x-4 social-icons">
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-400 transition duration-300">Home</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Services</a></li>
+                        <li><a href="portfolio.html" class="hover:text-blue-400 transition duration-300">Portfolio</a></li>
+                        <li><a href="about.html" class="hover:text-blue-400 transition duration-300">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-400 transition duration-300">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Tour Packages</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">SEO Services</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Marketing Automation</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Travel AI Agent</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Website Development</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>123 Travel Street, Tourism City, TC 12345</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span>info@lssstours.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p>&copy; 2023 LSSS Tours & Travels. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

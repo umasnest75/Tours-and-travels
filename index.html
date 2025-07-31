@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSSS Tours & Travels - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="index.html" class="text-2xl font-bold text-blue-600">LSSS Tours & Travels</a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-blue-600 font-medium">Home</a>
+                    <a href="services.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Services</a>
+                    <a href="portfolio.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Portfolio</a>
+                    <a href="about.html" class="text-gray-600 hover:text-blue-600 transition duration-300">About Us</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Contact Us</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4">
+                <a href="index.html" class="block py-2 text-blue-600 font-medium">Home</a>
+                <a href="services.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">Services</a>
+                <a href="portfolio.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">Portfolio</a>
+                <a href="about.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">About Us</a>
+                <a href="contact.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto px-4 h-full flex items-center relative z-10">
+            <div class="text-white max-w-2xl">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Travel isn't a luxury—it's part of what makes life great.</h1>
+                <p class="text-xl md:text-2xl mb-8">Discover, Explore, Experience with LSSS Tours & Travels</p>
+                <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105">Book Your Trip</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Popular Destinations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Destination 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1580253742341-e9d92a54f2b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Bali" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Bali, Indonesia</h3>
+                        <p class="text-gray-600 mb-4">Experience the perfect blend of stunning beaches, vibrant culture, and spiritual retreats.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Explore Packages <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Destination 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Paris" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Paris, France</h3>
+                        <p class="text-gray-600 mb-4">Discover the city of love with its iconic landmarks, world-class cuisine, and artistic heritage.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Explore Packages <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Destination 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1506461883276-594a12b11cf3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80" alt="Santorini" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Santorini, Greece</h3>
+                        <p class="text-gray-600 mb-4">Enjoy breathtaking sunsets, white-washed buildings, and crystal-clear waters of the Aegean Sea.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800">Explore Packages <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Our Services</h2>
+            <p class="text-gray-600 text-center mb-12 max-w-3xl mx-auto">We offer a wide range of travel and digital marketing services to make your journey memorable and your business successful.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-plane-departure text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Tour Packages</h3>
+                    <p class="text-gray-600 mb-4">Customized tour packages for individuals, families, and groups to destinations worldwide.</p>
+                    <a href="services.html" class="text-blue-600 font-medium hover:text-blue-800">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-search text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">SEO for Travel Businesses</h3>
+                    <p class="text-gray-600 mb-4">Specialized SEO services to improve visibility and rankings for travel-related businesses.</p>
+                    <a href="services.html" class="text-blue-600 font-medium hover:text-blue-800">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-robot text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Marketing Automation</h3>
+                    <p class="text-gray-600 mb-4">Streamline your marketing efforts with automated solutions tailored for the travel industry.</p>
+                    <a href="services.html" class="text-blue-600 font-medium hover:text-blue-800">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-brain text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Travel AI Agent</h3>
+                    <p class="text-gray-600 mb-4">AI-powered travel assistants to help plan trips, answer questions, and provide recommendations.</p>
+                    <a href="services.html" class="text-blue-600 font-medium hover:text-blue-800">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-laptop-code text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Website Development</h3>
+                    <p class="text-gray-600 mb-4">Custom website development for travel agencies, hotels, and tourism-related businesses.</p>
+                    <a href="services.html" class="text-blue-600 font-medium hover:text-blue-800">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-share-alt text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Social Media Management</h3>
+                    <p class="text-gray-600 mb-4">Comprehensive social media strategies to boost your travel business's online presence.</p>
+                    <a href="services.html" class="text-blue-600 font-medium hover:text-blue-800">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why We Are Best Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Why Choose Us</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Reason 1 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-headset text-5xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">24/7 Support</h3>
+                    <p>Round-the-clock assistance for all your travel needs and emergencies.</p>
+                </div>
+                
+                <!-- Reason 2 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-gem text-5xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Curated Experiences</h3>
+                    <p>Handpicked, unique travel experiences tailored to your preferences.</p>
+                </div>
+                
+                <!-- Reason 3 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-users text-5xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">500+ Happy Travelers</h3>
+                    <p>Join our community of satisfied travelers who keep coming back.</p>
+                </div>
+                
+                <!-- Reason 4 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-shield-alt text-5xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Secure Bookings</h3>
+                    <p>Safe and secure booking process with transparent pricing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Reviews/Testimonials Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
+            
+            <div class="testimonial-slider">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Testimonial 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah Johnson" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-bold">Sarah Johnson</h3>
+                                <div class="text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"LSSS Tours & Travels planned our honeymoon to Bali, and it was absolutely perfect! Every detail was taken care of, and we could just relax and enjoy our special time together."</p>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="Michael Chen" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-bold">Michael Chen</h3>
+                                <div class="text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"As a business owner in the hospitality industry, I've been amazed by the SEO and marketing services provided by LSSS. My bookings have increased by 40% in just three months!"</p>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Priya Sharma" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h3 class="font-bold">Priya Sharma</h3>
+                                <div class="text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Our family trip to Europe was flawlessly organized by LSSS Tours & Travels. The personalized itinerary catered to everyone's interests, from my history-loving husband to my adventure-seeking teenagers."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe to Newsletter Section -->
+    <section class="py-16 bg-gray-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Subscribe to Our Newsletter</h2>
+                <p class="mb-8">Stay updated with our latest travel deals, destinations, and digital marketing tips.</p>
+                
+                <form id="newsletter-form" class="flex flex-col md:flex-row gap-4">
+                    <input type="email" id="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-l-lg text-gray-800 focus:outline-none">
+                    <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-r-lg font-medium transition duration-300">Subscribe</button>
+                </form>
+                <p id="newsletter-message" class="mt-4 text-sm hidden"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">LSSS Tours & Travels</h3>
+                    <p class="mb-4">Your trusted partner for travel experiences and digital marketing solutions for the travel industry.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-400 transition duration-300">Home</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Services</a></li>
+                        <li><a href="portfolio.html" class="hover:text-blue-400 transition duration-300">Portfolio</a></li>
+                        <li><a href="about.html" class="hover:text-blue-400 transition duration-300">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-400 transition duration-300">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Tour Packages</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">SEO Services</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Marketing Automation</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Travel AI Agent</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Website Development</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>123 Travel Street, Tourism City, TC 12345</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span>info@lssstours.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p>&copy; 2023 LSSS Tours & Travels. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

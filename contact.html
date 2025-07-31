@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSSS Tours & Travels - Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="index.html" class="text-2xl font-bold text-blue-600">LSSS Tours & Travels</a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a>
+                    <a href="services.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Services</a>
+                    <a href="portfolio.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Portfolio</a>
+                    <a href="about.html" class="text-gray-600 hover:text-blue-600 transition duration-300">About Us</a>
+                    <a href="contact.html" class="text-blue-600 font-medium">Contact Us</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4">
+                <a href="index.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">Home</a>
+                <a href="services.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">Services</a>
+                <a href="portfolio.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">Portfolio</a>
+                <a href="about.html" class="block py-2 text-gray-600 hover:text-blue-600 transition duration-300">About Us</a>
+                <a href="contact.html" class="block py-2 text-blue-600 font-medium">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <header class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+            <p class="text-xl max-w-3xl mx-auto">Have questions or ready to plan your next adventure? Get in touch with our team today.</p>
+        </div>
+    </header>
+
+    <!-- Contact Information & Form Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row gap-12">
+                <!-- Contact Information -->
+                <div class="lg:w-1/3">
+                    <h2 class="text-3xl font-bold mb-8 text-gray-800">Get In Touch</h2>
+                    
+                    <!-- Office Address -->
+                    <div class="mb-8">
+                        <h3 class="text-xl font-bold mb-4 text-gray-800">Our Office</h3>
+                        <div class="flex items-start mb-4">
+                            <i class="fas fa-map-marker-alt text-blue-600 mt-1 mr-4 text-xl"></i>
+                            <div>
+                                <p class="text-gray-600">123 Travel Street</p>
+                                <p class="text-gray-600">Tourism City, TC 12345</p>
+                                <p class="text-gray-600">United States</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Details -->
+                    <div class="mb-8">
+                        <h3 class="text-xl font-bold mb-4 text-gray-800">Contact Details</h3>
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-phone-alt text-blue-600 mr-4 text-xl"></i>
+                            <p class="text-gray-600">+1 (555) 123-4567</p>
+                        </div>
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-envelope text-blue-600 mr-4 text-xl"></i>
+                            <p class="text-gray-600">info@lssstours.com</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Business Hours -->
+                    <div class="mb-8">
+                        <h3 class="text-xl font-bold mb-4 text-gray-800">Business Hours</h3>
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-clock text-blue-600 mr-4 text-xl"></i>
+                            <div>
+                                <p class="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                <p class="text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
+                                <p class="text-gray-600">Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media -->
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 text-gray-800">Connect With Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition duration-300">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="bg-blue-400 text-white p-3 rounded-full hover:bg-blue-500 transition duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="bg-pink-600 text-white p-3 rounded-full hover:bg-pink-700 transition duration-300">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="bg-blue-800 text-white p-3 rounded-full hover:bg-blue-900 transition duration-300">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="lg:w-2/3">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h2 class="text-3xl font-bold mb-6 text-gray-800">Send Us a Message</h2>
+                        <form id="contact-form" class="space-y-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <!-- Name Field -->
+                                <div>
+                                    <label for="name" class="block text-gray-700 font-medium mb-2">Your Name *</label>
+                                    <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" required>
+                                    <p id="name-error" class="text-red-600 text-sm mt-1 hidden">Please enter your name</p>
+                                </div>
+                                
+                                <!-- Email Field -->
+                                <div>
+                                    <label for="email" class="block text-gray-700 font-medium mb-2">Your Email *</label>
+                                    <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" required>
+                                    <p id="email-error" class="text-red-600 text-sm mt-1 hidden">Please enter a valid email address</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Subject Field -->
+                            <div>
+                                <label for="subject" class="block text-gray-700 font-medium mb-2">Subject *</label>
+                                <input type="text" id="subject" name="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" required>
+                                <p id="subject-error" class="text-red-600 text-sm mt-1 hidden">Please enter a subject</p>
+                            </div>
+                            
+                            <!-- Message Field -->
+                            <div>
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Your Message *</label>
+                                <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" required></textarea>
+                                <p id="message-error" class="text-red-600 text-sm mt-1 hidden">Please enter your message</p>
+                            </div>
+                            
+                            <!-- Submit Button -->
+                            <div>
+                                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+                                    Send Message
+                                </button>
+                                <p id="form-success" class="text-green-600 mt-4 hidden">Your message has been sent successfully. We'll get back to you soon!</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">Find Us</h2>
+            <div class="rounded-lg overflow-hidden shadow-xl">
+                <!-- Google Maps Embed (Placeholder) -->
+                <div class="w-full h-96 bg-gray-300 flex items-center justify-center">
+                    <!-- Replace with actual Google Maps embed code -->
+                    <div class="text-center p-8">
+                        <i class="fas fa-map-marked-alt text-6xl text-gray-600 mb-4"></i>
+                        <p class="text-gray-700">Google Maps would be embedded here in a production environment.</p>
+                        <p class="text-gray-700 mt-2">123 Travel Street, Tourism City, TC 12345</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Frequently Asked Questions</h2>
+            <div class="max-w-4xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-6">
+                    <button class="faq-question w-full flex justify-between items-center bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <span class="text-lg font-bold text-gray-800">How do I book a tour package?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer bg-white px-4 overflow-hidden max-h-0 transition-all duration-300">
+                        <div class="py-4 border-t border-gray-200">
+                            <p class="text-gray-600">You can book a tour package by filling out the contact form on this page, calling our office directly, or using the "Book Your Trip" button on our homepage. Our team will get back to you within 24 hours to discuss your travel preferences and finalize your booking.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="mb-6">
+                    <button class="faq-question w-full flex justify-between items-center bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <span class="text-lg font-bold text-gray-800">What payment methods do you accept?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer bg-white px-4 overflow-hidden max-h-0 transition-all duration-300">
+                        <div class="py-4 border-t border-gray-200">
+                            <p class="text-gray-600">We accept all major credit cards, bank transfers, and PayPal. For certain destinations, we also offer installment payment plans. A deposit of 20% is typically required to confirm your booking, with the balance due 30 days before your departure date.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="mb-6">
+                    <button class="faq-question w-full flex justify-between items-center bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <span class="text-lg font-bold text-gray-800">How can your digital services help my travel business?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer bg-white px-4 overflow-hidden max-h-0 transition-all duration-300">
+                        <div class="py-4 border-t border-gray-200">
+                            <p class="text-gray-600">Our digital services can help your travel business increase online visibility, attract more customers, and streamline operations. Our SEO services improve your search engine rankings, our website development creates user-friendly booking experiences, and our marketing automation tools help nurture leads and retain customers. Contact us for a personalized consultation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div>
+                    <button class="faq-question w-full flex justify-between items-center bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <span class="text-lg font-bold text-gray-800">What is your cancellation policy?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer bg-white px-4 overflow-hidden max-h-0 transition-all duration-300">
+                        <div class="py-4 border-t border-gray-200">
+                            <p class="text-gray-600">Our cancellation policy varies depending on the tour package and destination. Generally, cancellations made 60 days or more before departure receive a full refund minus a small administrative fee. Cancellations between 30-59 days receive a 50% refund, and cancellations less than 30 days before departure are non-refundable. We strongly recommend purchasing travel insurance for unexpected circumstances.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">LSSS Tours & Travels</h3>
+                    <p class="mb-4">Your trusted partner for travel experiences and digital marketing solutions for the travel industry.</p>
+                    <div class="flex space-x-4 social-icons">
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400 transition duration-300"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-400 transition duration-300">Home</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Services</a></li>
+                        <li><a href="portfolio.html" class="hover:text-blue-400 transition duration-300">Portfolio</a></li>
+                        <li><a href="about.html" class="hover:text-blue-400 transition duration-300">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-400 transition duration-300">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Tour Packages</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">SEO Services</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Marketing Automation</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Travel AI Agent</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400 transition duration-300">Website Development</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>123 Travel Street, Tourism City, TC 12345</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span>info@lssstours.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p>&copy; 2023 LSSS Tours & Travels. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    
+    <!-- Contact Form Validation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contact-form');
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const subjectInput = document.getElementById('subject');
+            const messageInput = document.getElementById('message');
+            
+            const nameError = document.getElementById('name-error');
+            const emailError = document.getElementById('email-error');
+            const subjectError = document.getElementById('subject-error');
+            const messageError = document.getElementById('message-error');
+            const formSuccess = document.getElementById('form-success');
+            
+            // FAQ Functionality
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Toggle answer visibility
+                    if (answer.classList.contains('active')) {
+                        answer.style.maxHeight = '0';
+                        answer.classList.remove('active');
+                        icon.classList.remove('rotate-180');
+                    } else {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                        answer.classList.add('active');
+                        icon.classList.add('rotate-180');
+                    }
+                });
+            });
+            
+            // Form Validation
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                let isValid = true;
+                
+                // Reset errors
+                nameError.classList.add('hidden');
+                emailError.classList.add('hidden');
+                subjectError.classList.add('hidden');
+                messageError.classList.add('hidden');
+                formSuccess.classList.add('hidden');
+                
+                // Validate name
+                if (nameInput.value.trim() === '') {
+                    nameError.classList.remove('hidden');
+                    isValid = false;
+                }
+                
+                // Validate email
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(emailInput.value.trim())) {
+                    emailError.classList.remove('hidden');
+                    isValid = false;
+                }
+                
+                // Validate subject
+                if (subjectInput.value.trim() === '') {
+                    subjectError.classList.remove('hidden');
+                    isValid = false;
+                }
+                
+                // Validate message
+                if (messageInput.value.trim() === '') {
+                    messageError.classList.remove('hidden');
+                    isValid = false;
+                }
+                
+                // If valid, show success message
+                if (isValid) {
+                    formSuccess.classList.remove('hidden');
+                    contactForm.reset();
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        formSuccess.classList.add('hidden');
+                    }, 5000);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
